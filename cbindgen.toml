@@ -1,0 +1,10 @@
+language = "C"
+include_guard = "N3T1R_H"
+
+no_includes = true
+sys_includes = ["stddef.h", "stdint.h", "stdbool.h"]
+cpp_compat = true
+line_length = 200
+
+[export.rename]
+"MAXIMUM_DATA_LEN" = "N3T1R_MAXIMUM_DATA_LEN"
